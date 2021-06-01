@@ -4,3 +4,10 @@ $(document).ready(function() {
     $("#init-hidden").toggle();
   });
 });
+
+$(document).ready(function() {
+  $(".clickableBrownie").click(function() {
+    $("#init-Brownie-showing").toggle();
+    $("#init-Brownie-hidden").toggle();
+  });
+});

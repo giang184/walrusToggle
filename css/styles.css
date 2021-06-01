@@ -1,6 +1,9 @@
 #init-showing {
   display: none;
 }
+#init-Brownie-showing {
+  display: none;
+}
 
 .clickable {
   cursor: pointer;
@@ -8,5 +11,14 @@
 }
 
 .clickable:hover {
+  text-decoration: underline;
+}
+
+.clickableBrownie {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickableBrownie:hover {
   text-decoration: underline;
 }
